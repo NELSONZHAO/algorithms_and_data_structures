@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Nelson/Desktop/Computer/CppCode/MergeSortBU/SortTestHelper.h
+iostream
+-
+ctime
+-
+cassert
+-
+
+/Users/Nelson/Desktop/Computer/CppCode/MergeSortBU/main.cpp
+iostream
+-
+algorithm
+-
+mergeSort.h
+/Users/Nelson/Desktop/Computer/CppCode/MergeSortBU/mergeSort.h
+SortTestHelper.h
+/Users/Nelson/Desktop/Computer/CppCode/MergeSortBU/SortTestHelper.h
+
+/Users/Nelson/Desktop/Computer/CppCode/MergeSortBU/mergeSort.h
+iostream
+-
+algorithm
+-
+
