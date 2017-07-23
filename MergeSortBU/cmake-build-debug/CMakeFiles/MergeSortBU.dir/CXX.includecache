@@ -17,8 +17,6 @@ cassert
 /Users/Nelson/Desktop/Computer/CppCode/MergeSortBU/main.cpp
 iostream
 -
-algorithm
--
 mergeSort.h
 /Users/Nelson/Desktop/Computer/CppCode/MergeSortBU/mergeSort.h
 SortTestHelper.h

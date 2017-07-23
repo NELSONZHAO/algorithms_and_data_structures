@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Nelson/Desktop/Computer/CppCode/QuickSort/SortTestHelper.h
+iostream
+-
+ctime
+-
+cassert
+-
+
+/Users/Nelson/Desktop/Computer/CppCode/QuickSort/main.cpp
+iostream
+-
+algorithm
+-
+SortTestHelper.h
+/Users/Nelson/Desktop/Computer/CppCode/QuickSort/SortTestHelper.h
+

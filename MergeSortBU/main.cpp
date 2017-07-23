@@ -8,7 +8,7 @@ template <typename T>
 void mergeSortBU(T arr[], int n){
     // 自底向上的归并排序
 
-    for(int sz = 1; sz <= n; sz *= 2) { // 归并的元素个数
+    for(int sz = 1; sz < n; sz *= 2) { // 归并的元素个数
         for (int i = 0; i + sz < n; i += sz + sz) {
             // 对arr[i, i+sz-1]与arr[i+sz,i+2*sz-1]进行归并
             if (arr[i + sz - 1] > arr[i + sz])
